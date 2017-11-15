@@ -1,0 +1,37 @@
+.banner {
+  position: relative;
+}
+.banner .heading {
+  background: rgba(110, 38, 123, 0.4);
+  color: #fff !important;
+  padding: 20px 0;
+  position: relative;
+}
+.banner .heading h1 {
+  color: #fff;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.banner .heading p {
+  font-size: 1.708em;
+  font-weight: 500;
+  font-family: 'Prelo Slab W01 Book';
+  padding-left: 100px;
+}
+
+.banner .heading .container-fluid {
+  position: relative;
+}
+.banner .heading .container-fluid > button {
+  position: absolute;
+  bottom: -46px;
+  right: 15px;
+}
+.banner.small {
+  margin-bottom: 60px;
+}
+.banner.small .container {
+  position: relative;
+  padding: 0 20px !important;
+}
